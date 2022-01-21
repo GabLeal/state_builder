@@ -7,8 +7,7 @@ class LoadingState extends StateType {}
 class SuccessState<T> extends StateType {
   final T result;
 
-  SuccessState(this.result)
-      : assert(result.runtimeType != dynamic, 'add type param');
+  SuccessState(this.result);
 }
 
 class ErrorState extends StateType {

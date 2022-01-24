@@ -1,7 +1,7 @@
 name: state_builder
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/GabLeal/state_builder
 
 environment:
   sdk: ">=2.15.0 <3.0.0"
